@@ -22,8 +22,8 @@ function handleFormSubmit(event) {
   const message = messageInput.value;
   
   if (!email) {
-    return;
-    };
+        return;
+};
 
   console.log({ email, message });
   localStorage.removeItem('feedback-form-state');
